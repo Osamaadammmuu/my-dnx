@@ -1,0 +1,102 @@
+.footer {
+  padding: 80px 0;
+  width: 1500px;
+  margin: 0 auto;
+  @media (max-width: 767px) {
+    width: fit-content;
+  }
+  .container {
+    @media (max-width: 767px) {
+      padding: 0;
+    }
+    .content {
+      display: flex;
+      justify-content: space-between;
+      @media (max-width: 991px) {
+        display: block;
+        width: 100%;
+      }
+      @media (max-width: 767px) {
+        display: block;
+      }
+      .dnkk {
+        @media (max-width: 767px) {
+          text-align: center;
+        }
+        img {
+          width: 90px;
+          height: 30px;
+          margin-bottom: 20px;
+        }
+        h3 {
+          font-family: "Barlow", sans-serif;
+          font-size: 26px;
+        }
+      }
+      .same-div {
+        margin-bottom: 80px;
+        &:last-of-type {
+          margin-bottom: 0;
+        }
+        @media (max-width: 767px) {
+          text-align: center;
+          width: 400px;
+        }
+        h3 {
+          font-family: "Barlow", sans-serif;
+          text-transform: capitalize;
+          font-weight: 300;
+          margin-top: 0;
+        }
+        p {
+          font-family: "Hind", sans-serif;
+          color: #6f7070d5;
+          font-weight: 300;
+          margin: 4px 0;
+          cursor: pointer;
+          transition: 0.2s ease;
+          &:hover {
+            color: #0075be;
+          }
+        }
+      }
+      .sub {
+        width: auto;
+        h3 {
+          font-family: "Barlow", sans-serif;
+          font-weight: 300;
+          margin-top: 0;
+        }
+        input {
+          display: block;
+          width: 210px;
+          padding: 16px 20px;
+          background-color: #f3f3f3;
+          border: 1px solid #ddd;
+          margin-bottom: 20px;
+          @media (max-width: 767px) {
+            width: 330px;
+            text-align: center;
+          }
+        }
+        button {
+          background-color: #0075becb;
+          border: none;
+          padding: 10px 20px;
+          color: #fff;
+          text-transform: uppercase;
+          font-family: "Hind", sans-serif;
+          letter-spacing: 2px;
+          cursor: pointer;
+          font-size: 14px;
+          &:hover {
+            background-color: #0075be;
+          }
+        }
+        @media (max-width: 767px) {
+          text-align: center;
+        }
+      }
+    }
+  }
+}

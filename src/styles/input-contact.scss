@@ -1,0 +1,68 @@
+.input-contact {
+  margin-top: 80px;
+  padding-bottom: 80px;
+  .container {
+    padding: 0;
+    .con-contact-us {
+      display: flex;
+      justify-content: space-between;
+      @media (max-width: 991px) {
+        flex-wrap: wrap;
+      }
+      .left-side {
+        span {
+          font-family: "Work Sans", sans-serif;
+          font-size: 15px;
+          font-weight: 600;
+        }
+        h4 {
+          margin-top: 20px;
+          font-family: "Barlow", sans-serif;
+          font-size: 35px;
+        }
+        p {
+          font-family: "Hind", sans-serif;
+          color: #434343;
+          line-height: 40px;
+        }
+      }
+      .right-side {
+        background-color: #fff;
+        padding: 10px;
+        padding-bottom: 30px;
+        width: 100%;
+
+        input {
+          display: block;
+          width: 90%;
+          padding: 15px;
+          border: none;
+          border: 1px solid #ddd;
+          margin: 0 auto 20px auto;
+          background-color: #fafafa;
+          border-radius: 5px;
+        }
+        textarea {
+          padding: 15px;
+          width: 90%;
+          display: block;
+          margin: 0 auto 20px auto;
+          border: none;
+          border: 1px solid #ddd;
+          height: 200px;
+          background-color: #fafafa;
+          border-radius: 5px;
+        }
+        button {
+          background-color: #1389d8;
+          border: none;
+          color: #fff;
+          padding: 15px 20px;
+          text-transform: uppercase;
+          margin-left: 10px;
+          border-radius: 5px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+.who-about {
+  position: relative;
+  background-color: #f5f7f9;
+  padding-bottom: 80px;
+  padding-top: 80px;
+  .container {
+    .content {
+      display: flex;
+      @media (max-width: 991px) {
+        display: block;
+      }
+      .left-side {
+        background-color: #fff;
+        padding: 50px;
+        @media (max-width: 991px) {
+          width: 630px;
+        }
+        @media (max-width: 667px) {
+          width: 430px;
+        }
+        h4 {
+          font-family: "Hind", sans-serif;
+          text-transform: capitalize;
+          font-weight: 500;
+          font-size: 50px;
+          margin-bottom: 10px;
+        }
+        p {
+          font-family: "Barlow", sans-serif;
+          color: #333;
+          line-height: 30px;
+        }
+      }
+      .right-side {
+        img {
+          width: auto;
+          height: 480px;
+          @media (max-width: 991px) {
+            width: 730px;
+          }
+          @media (max-width: 767px) {
+            width: 530px;
+          }
+        }
+      }
+    }
+  }
+}

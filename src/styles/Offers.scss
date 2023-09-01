@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500&display=swap");
+//---------------------------------------------------
+
+.Offers {
+  background-image: url("https://websitedemos.net/brandstore-02/wp-content/uploads/sites/150/2019/12/home-new-bg-free-img.jpg");
+  height: 900px;
+  background-size: cover;
+  position: relative;
+  .overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #01162358;
+    color: #fff;
+    .container {
+      @media (max-width: 767px) {
+        text-align: center;
+      }
+      .head {
+        padding-top: 250px;
+        width: 500px;
+        @media (max-width: 767px) {
+          width: auto;
+        }
+      }
+      .head-one {
+        font-family: "Work Sans", sans-serif;
+        font-weight: 500;
+        font-size: 50px;
+        @media (max-width: 767px) {
+          font-size: 35px;
+        }
+      }
+      span {
+        font-family: "Hind", sans-serif;
+        font-size: 25px;
+        font-weight: 400;
+      }
+      .btns {
+        padding-top: 30px;
+        .btn {
+          padding: 10px 35px;
+          border: none;
+          text-transform: uppercase;
+          font-family: "Hind", sans-serif;
+          font-weight: 300;
+          font-size: 16px;
+          transition: 0.3s ease;
+          font-weight: 500;
+          cursor: pointer;
+          @media (max-width: 767px) {
+            display: block;
+            width: 100%;
+            margin-bottom: 20px;
+          }
+          &:first-of-type {
+            margin-right: 20px;
+            color: #333;
+            &:hover {
+              background-color: #000000;
+              color: #fff;
+            }
+          }
+          &:last-of-type {
+            background-color: transparent;
+            color: #fff;
+            border: 1px solid #fff;
+            &:hover {
+              background-color: #fff;
+              color: #333;
+            }
+          }
+        }
+      }
+    }
+  }
+}

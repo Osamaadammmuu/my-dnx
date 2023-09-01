@@ -1,0 +1,96 @@
+.products {
+  background-color: #f5f7f9;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  border-bottom: 1px solid #ddd;
+  .container {
+    @media (max-width: 767px) {
+      padding-left: 0;
+      padding-right: 0;
+    }
+    .head-one {
+      text-align: center;
+      position: relative;
+      font-family: "Work Sans", sans-serif;
+      font-size: 40px;
+    }
+    .All-data {
+      margin-top: 50px;
+      display: flex;
+      flex-wrap: wrap;
+      @media (max-width: 767px) {
+        justify-content: space-between;
+      }
+      .data {
+        width: 240px;
+        padding: 20px;
+        text-align: left;
+        position: relative;
+        @media (max-width: 767px) {
+          width: 200px;
+          text-align: center;
+        }
+        &:hover {
+          .bagmark {
+            display: block;
+            @media (max-width: 767px) {
+              display: none;
+            }
+          }
+        }
+        .bagmark {
+          position: absolute;
+          right: 18px;
+          top: 39px;
+          background-color: #333;
+          padding: 10px;
+          border-radius: 50%;
+          border: 2px solid #fff;
+          cursor: pointer;
+          transition: all 0.1s ease-in-out;
+          opacity: 0.6;
+          display: none;
+          color: #fff;
+          &:hover {
+            opacity: 1;
+          }
+        }
+        img {
+          width: 250px;
+          height: 250px;
+          cursor: pointer;
+          border: 2px solid #ddd;
+          border-radius: 10px;
+          @media (max-width: 767px) {
+            width: 130px;
+            height: 100px;
+          }
+        }
+        .tit {
+          display: block !important;
+          font-family: "Work Sans", sans-serif;
+          margin-bottom: 5px;
+          @media (max-width: 767px) {
+            text-align: center;
+          }
+        }
+        span {
+          font-family: "Barlow", sans-serif;
+          color: #6d6d6d;
+          text-transform: capitalize;
+          @media (max-width: 767px) {
+            text-align: center;
+            display: block;
+          }
+        }
+        p {
+          margin-top: 5px;
+          font-family: "Work sans", sans-serif;
+          @media (max-width: 767px) {
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+.footer-line {
+  border-top: 1px solid #ddd;
+  padding: 40px 100px;
+  @media (max-width: 767px) {
+    padding: 20px;
+  }
+  .container {
+    @media (max-width: 767px) {
+      padding: 0;
+    }
+    .con {
+      display: flex;
+      justify-content: space-between;
+      @media (max-width: 991px) {
+        display: inline-block;
+      }
+      @media (max-width: 767px) {
+        text-align: center;
+        width: 500px;
+      }
+      .copyright {
+        color: #333;
+        font-family: "Barlow", sans-serif;
+        @media (max-width: 991px) {
+          margin-bottom: 30px;
+          display: block;
+          width: 400px;
+        }
+        @media (max-width: 767px) {
+          margin: 0 auto;
+          margin-bottom: 30px;
+        }
+      }
+      .icons {
+        i {
+          margin-right: 25px;
+          cursor: pointer;
+          width: 25px;
+          text-align: center;
+          font-size: 18px;
+          &:hover {
+            color: #0075becb;
+          }
+        }
+      }
+    }
+  }
+}

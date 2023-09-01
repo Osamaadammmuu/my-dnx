@@ -1,0 +1,68 @@
+.our-team {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  .container {
+    span {
+      text-transform: capitalize;
+      font-family: "Hind", sans-serif;
+      font-weight: 500;
+      font-size: 20px;
+      text-align: center;
+      display: block;
+    }
+    h1 {
+      font-family: "Work Sans", sans-serif;
+      text-transform: capitalize;
+      font-weight: 700;
+      font-size: 40px;
+      text-align: center;
+    }
+    p {
+      font-family: "Barlow", sans-serif;
+      color: #333;
+      width: 700px;
+      text-align: center;
+      margin: 0 auto;
+      line-height: 33px;
+      @media (max-width: 767px) {
+        display: none;
+      }
+    }
+    .manager-about {
+      margin: 0 auto;
+      background-color: #fff;
+      margin-top: 70px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      @media (max-width: 767px) {
+        justify-content: center;
+      }
+      .cont-manage {
+        width: 200px;
+        background-color: #f5f7f9;
+        text-align: center;
+        padding: 20px 30px;
+        margin-bottom: 20px;
+        img {
+          width: 100px;
+          height: 100px;
+        }
+        h4 {
+          font-family: "Work Sans", sans-serif;
+          font-weight: 800;
+          font-size: 18px;
+          margin-bottom: 10px;
+        }
+        span {
+          font-family: "Barlow", sans-serif;
+          color: #333;
+          font-weight: 300;
+          display: inline-block;
+          font-size: 15px;
+          padding-bottom: 20px;
+        }
+      }
+    }
+  }
+}

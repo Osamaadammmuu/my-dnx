@@ -1,0 +1,45 @@
+.S {
+  .follow {
+    background-image: url("https://websitedemos.net/brandstore-02/wp-content/uploads/sites/150/2019/12/banner-05.jpg");
+    height: 550px;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #00000079;
+      .container {
+        .conten {
+          background-color: #f5f7f9;
+          width: 470px;
+          height: 351px;
+          margin: 0 auto;
+          padding-top: 200px;
+          h4 {
+            text-align: center;
+            font-family: "Hind", sans-serif;
+            font-size: 50px;
+            font-weight: 500;
+            margin: 0;
+          }
+          .icons {
+            text-align: center;
+            i {
+              margin-left: 30px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .best-products {
+    padding-bottom: 50px;
+  }
+  .sale {
+    border-top: 1px solid #ddd;
+  }
+}

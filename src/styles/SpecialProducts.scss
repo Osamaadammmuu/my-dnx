@@ -1,0 +1,58 @@
+.Special-product {
+  margin-top: 80px;
+  background-image: url("https://websitedemos.net/brandstore-02/wp-content/uploads/sites/150/2019/12/banner-03.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  height: 450px;
+  padding: 50px 100px;
+  color: #fff;
+  position: relative;
+  @media (max-width: 767px) {
+    text-align: center;
+    padding: 20px;
+    width: 400px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+  }
+  span {
+    display: inline-block;
+    padding-top: 70px;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+  }
+  h4 {
+    text-transform: capitalize;
+    font-family: "Barlow", sans-serif;
+    font-size: 38px;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .lo {
+    width: 550px;
+    margin-bottom: 30px;
+    font-family: "Work Sans", sans-serif;
+    line-height: 35px;
+    margin-bottom: 0px;
+    @media (max-width: 991px) {
+      width: 400px;
+    }
+  }
+  .diss {
+    font-family: "Work Sans", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+  }
+  button {
+    padding: 13px 35px;
+    text-transform: uppercase;
+    font-family: "Hind", sans-serif;
+    font-weight: 500;
+    margin-top: 30px;
+    cursor: pointer;
+    @media (max-width: 767px) {
+      width: 300px;
+    }
+  }
+}

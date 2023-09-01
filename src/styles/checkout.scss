@@ -1,0 +1,176 @@
+.check-o {
+  padding-top: 35px;
+  .Nav {
+    background-color: #0075bede;
+  }
+  .main {
+    background-color: #f5f7f9;
+    padding-bottom: 70px;
+    h4 {
+      font-size: 50px;
+      padding-top: 50px;
+      color: #5c5c5c;
+      font-family: "Barlow", sans-serif;
+      text-transform: capitalize;
+      text-align: center;
+    }
+    .returnnn {
+      border-top: 3px solid #333;
+      i {
+        padding-top: 20px;
+        margin-right: 20px;
+        margin-left: 30px;
+      }
+      span {
+        font-family: "Hind", sans-serif;
+        color: #6d6d6d;
+      }
+      button {
+        background-color: transparent;
+        border: none;
+        font-family: "Barlow", sans-serif;
+        font-size: 16px;
+        cursor: pointer;
+        transition: 0.5s ease-in-out;
+        &:hover {
+          color: #4169e1;
+        }
+      }
+    }
+    .info-section {
+      display: flex;
+      justify-content: space-between;
+      @media (max-width: 991px) {
+        flex-wrap: wrap;
+      }
+      .left-side {
+        width: 55%;
+        @media (max-width: 991px) {
+          width: 100%;
+        }
+        .bill-s {
+          font-family: "Barlow", sans-serif;
+          font-weight: 700;
+          margin-top: 50px;
+          border-bottom: 1px solid #ddd;
+          padding-bottom: 20px;
+        }
+        .first-last {
+          display: flex;
+          justify-content: space-between;
+          .s {
+            width: 50%;
+            .lab {
+              display: block;
+              margin-bottom: 10px;
+              font-family: "Barlow", sans-serif;
+              text-transform: capitalize;
+            }
+            input {
+              width: 80%;
+              border: none;
+              padding: 15px;
+              border: 1px solid #ddd;
+            }
+          }
+        }
+        .all-input {
+          .inp {
+            display: block;
+            font-family: "Barlow", sans-serif;
+            text-transform: capitalize;
+            margin-top: 10px;
+            margin-bottom: 10px;
+          }
+          input {
+            width: 90%;
+            border: none;
+            padding: 15px;
+            border: 1px solid #ddd;
+          }
+          .sx {
+            margin-bottom: 15px;
+          }
+        }
+        .heed-s {
+          font-family: "Barlow", sans-serif;
+          font-weight: 700;
+          margin-top: 50px;
+          border-bottom: 1px solid #ddd;
+          padding-bottom: 20px;
+        }
+        .label-e {
+          display: block;
+          margin-bottom: 10px;
+          font-family: "Barlow", sans-serif;
+          text-transform: capitalize;
+        }
+        .input-e {
+          width: 90%;
+          border: none;
+          padding: 15px;
+          border: 1px solid #ddd;
+        }
+      }
+      .right-side {
+        width: 35%;
+        border: 1px solid #ddd;
+        height: 400px;
+        margin-top: 80px;
+        padding: 30px;
+        @media (max-width: 991px) {
+          width: 100%;
+        }
+        h3 {
+          font-family: "Barlow", sans-serif;
+          text-transform: capitalize;
+          font-weight: 700;
+          color: #191919;
+        }
+        .recipe {
+          display: block;
+          .rec {
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1px solid #ddd;
+            padding: 20px;
+            &:first-of-type {
+              .span-title {
+                font-weight: bold;
+              }
+              .span-money {
+                font-weight: bold;
+              }
+            }
+            .span-title {
+              font-family: "Barlow", sans-serif;
+              font-weight: 400;
+              text-transform: capitalize;
+            }
+            .span-money {
+              font-family: "Barlow", sans-serif;
+              text-transform: capitalize;
+            }
+          }
+          .place-holder {
+            display: block;
+            background-color: #0075bec5;
+            border: none;
+            color: #ffff;
+            width: 90%;
+            margin: 30px auto;
+            text-align: center;
+            font-family: "Hind", sans-serif;
+            font-size: 16px;
+            padding: 12px;
+            text-transform: uppercase;
+            cursor: pointer;
+            &:hover {
+              background-color: #0075be;
+            }
+          }
+        }
+      }
+    }
+  }
+}

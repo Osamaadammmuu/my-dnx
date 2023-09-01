@@ -1,0 +1,14 @@
+.swiper {
+  margin-top: 50px;
+  padding: 20px;
+  width: 900px;
+  @media (max-width: 767px) {
+    display: none;
+  }
+}
+
+//-----------------<< Swiper >>-------------------
+.swiper-button-prev,
+.swiper-button-next {
+  color: #333 !important;
+}
